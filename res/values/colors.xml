@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ldrawer_color">#FFFFFF</color>
+    <color name="main_bg">#E8E8E0</color>
+    <color name="divide_line">#ffe4e4e4</color>
+    <color name="light_gray">#afffffff</color>
+    <color name="textColor">#ff909090</color>
+    <color name="setting_item_line">#ff9fa19f</color>
+    <color name="gray_user_bg">#8c9099</color>
+    <color name="black">#444444</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="event_type_first_item_bg">#E5E5E5</color>
+    <color name="chart_red">#fea500</color>
+
+</resources>

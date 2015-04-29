@@ -1,0 +1,61 @@
+  <resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">@color/actionbar_color</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Theme.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MD">
+        <item name="animationVelocity">6</item>
+        <item name="insetBottom">16dp</item>
+        <item name="insetTop">16dp</item>
+        <item name="insetLeft">16dp</item>
+        <item name="insetRight">16dp</item>
+        <item name="measureFactor">1.4</item>
+        <item name="offDrawable">@drawable/md_back_off</item>
+        <item name="onDrawable">@drawable/md_back_on</item>
+        <item name="thumbDrawable">@drawable/md_thumb</item>
+        <item name="thumb_margin">-17dp</item>
+    </style>
+
+    <style name="MaterialDesignStyle" parent="MD">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="MenuButtonStyle" parent="MD">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+    </style>
+
+    <style name="AnimationFade">
+        <item name="android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+    
+     <style name="SelectEventTypeStyle">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_show</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_hide</item>
+    </style>
+
+</resources>
